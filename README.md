@@ -115,20 +115,20 @@
 
 * Add slicers to the pivort charts i.e Marital Status,Region,Education,Home Owner,Children,Occupation,Cars slicers.Process:Select pivot chart 1>pivot chart tools>analyze>insert slicer>select categories>then add connections to all pivot charts.
 
-* After data analysis and visualization, we can now proceed to deliver reccommendation to the bike seller.
+* After data analysis and visualization, we can now proceed to deliver reccommendations to the bike seller.
 
 # **Reccommendations To Bike Seller**
 * From insights obtained from analyzing our data set,we are set to give reccommendations that will guide the bike seller in conducting targeted marketing which will in turn lead to increased bikes sales.
 
 * Our reccommendations are as follows:
 
-    1.Target identifiers with higher income levels when marketing the bikes.As from our insights,higher income earners purchase bikes more compared to thier counterparts.
+    1).Target identifiers with higher income levels when marketing the bikes.As from our insights,higher income earners purchase bikes more compared to thier counterparts.
     
-    2. When marketing to identifiers with the same average income level, prioritize the female gender in comparision to the male gender.This is because from our analysis,we observe that at the same avarage income level,female identifiers are more likely to make a bike purchase as oppossed to their male counterparts.
+    2).When marketing to identifiers with the same average income level, prioritize the female gender in comparision to the male gender.This is because from our analysis,we observe that at the same avarage income level,female identifiers are more likely to make a bike purchase as oppossed to their male counterparts.
     
-    3.Prioritize identifiers in the 0-5 miles commute distance with top priority to those in the 0-1 miles commute distance during marketing.From our insights,we observe that identifiers in this range are more in number and have a tendancy to purchase bikes.
+    3).Prioritize identifiers in the 0-5 miles commute distance with top priority to those in the 0-1 miles commute distance during marketing.From our insights,we observe that identifiers in this range are more in number and have a tendancy to purchase bikes.
     
-    4.Middle age bracket identifiers should also be accorded target market priority.It is evident that they carry the highest number of identifiers as well as the highest number of bike purchases in terms of age bracket.
+    4).Middle age bracket identifiers should also be accorded target market priority.It is evident that they carry the highest number of identifiers as well as the highest number of bike purchases in terms of age bracket.
  
  
  
