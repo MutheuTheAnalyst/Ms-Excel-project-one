@@ -1,7 +1,7 @@
-## Ms-Excel-Project-One
+## Ms-Excel-Project.
 # **Introduction**
 
-* In this project, a dataset that contains information on bike purchase by diffrent individuals with discrete characteristics is presented.
+* In this project, a dataset that contains information on bike purchase by different individuals with discrete attributes is presented.
 
 * Our aim is to clean,transform,analyze and visualize the dataset inorder to draw insights that will guide the bike seller in making informed marketing decisons hence improving his/her bike sales.
 
@@ -21,14 +21,14 @@
 
 * The variables include:Marital status,Gender,Income,Children,Education,Occupation,Home owner,Cars,Commute,Region,Age,Purchased bike.
 
-* NB:Variables in this case, are the characteristics of identifiers that may have influenced their decision of whether or not to purchase a bike.
+* NB:Variables in this case, are the attributes of identifiers that may have influenced their decision of whether or not to purchase a bike.
 
 # **Dataset Cleaning**
 * The first step in data analysis is oftenly data cleaning.In our case,we proceed to data cleaning after data overview.
 
-* Copy and paste the dataset into a new excel sheet,namely,'working sheet'.All our data cleaning and data transformation will take pplace on the working sheet.This allows us to retain our raw data in its original form at the original excel sheet. 
+* Copy and paste the dataset into a new excel sheet,namely,'working sheet'.All our data cleaning and data transformation will take place on the working sheet.This allows us to retain our raw data in its original form at the original excel sheet. 
 
-* The first step in data cleaning is removing of any duplicates from the data set.Method: Select whole dataset(ctrl+A) > data> remove duplicates> data has headers.In our data set,26 duplicates exist (and are eliminated) and 1000 unique values remain.
+* The first step in data cleaning is removing any duplicates from the data set.Method: Select whole dataset(ctrl+A) > data> remove duplicates> data has headers.In our data set,26 duplicates exist (and are eliminated) and 1000 unique values remain.
 
 * Check each column for any inconsistancies or in accurracies.
 
@@ -43,55 +43,66 @@
 
 * Convert the 'Income' column to cuurrency form. Process: >select column >number > currency. In addittion,make the column data values only whole numbers.
 
-* In the 'Commute' column, replace the '10+ miles' data values with 'More than 10 miles'.This will enable efficient sorting of the data in the column as excel will now  recognize the data values as the greatest in the order. 
+* In the 'Commute' column, replace the '10+ miles' data values with 'More than 10 miles'.Use the find and replace function.This transformation will enable efficient sorting of the data in the column as excel will now  recognize the 'More than 10 miles' data values as the greatest in the column. 
 
 * Since the 'Age column' contains alot of distinct data values,it is best to create a new column namely 'Age bracket' , this will ensure that our visualization later on is not crowded. Process: >insert column(right of 'age' column).
 
-* Group the distinct age data values into ranges: 'Old': x>54,'Middle age': X>=31,'Adolescent': x<31.Use the nested IF function to transform the data in 'Age' column i.e =IF(L2>54,"Old",IF(L2>31,"Middle age",IF(L2<31,"Adolescent","Invalid))).Write your code on the 'Age bracket' column first cell,then fill the rest of the column cells with the formula.Thus a new column with only three distict values will have been ccreated thus making visualization easier.
+* Group the distinct age data values into ranges: 'Old' is when x>54,'Middle age' is when x>=31 and 'Adolescent' is when x<31.Use the nested IF function to transform the data in 'Age' column i.e =IF(L2>54,"Old",IF(L2>31,"Middle age",IF(L2<31,"Adolescent","Invalid))).Write your code on the 'Age bracket' column first cell,then fill the rest of the column cells with the formula.Thus a new column with only three distict values will have been created thus making visualization easier.
 
 * The other remaining columns do not require any transformation.We can now proceed to analyze the clean and transformed dataset.
 
 # **Dataset Analysis**
-* Create a new work sheet namely,'pivot tables'.We shall perfom our all our analysis on this work sheet.Copy all data from the 'working sheet' and paste it ontpo this new sheet.
+* Create a new work sheet namely,'pivot tables'.We shall perfom our all our analysis on this work sheet.Copy all data from the 'working sheet' and paste it onto this new sheet.
 
 * In our analysis,we shall answer to the following:
 1. Does the level of income of an identifier make a difference in their decision of whether or not to make a bike purchase?
 2. Does the commute distance of an identifier make a difference in their decision of whether or not to make a bike purchase?
 3. Which age group is more interested in bike purchase?
 
-* For our first analysis,create a pivot table 1 that compares the average income of males versus the average income of females that did or did not purchase a bike.
+## *First analysis
+
+* Create a pivot table 1 that compares the average income of males versus the average income of females that did or did not purchase a bike.
 
 -Process: >insert pivot table>select dataset from working sheet>rows:Gender>columns:Purchased bike>values:Average of income.
 
 -From our analysis,we note that:
 
-    1. Bikes were purchased by identifiers that have an average higher income compared to the none purchases.This is in both male and female genders.
+    1.Bikes were purchased by identifiers that have an average higher income compared to the non-purchasers.
     
-    2. The average income of the male identifiers is higher compared to the average income of the female identifiers.However,the average income of the male identifiers that did not purchase a bike is still higher than the average income of female identifiers that purchased bikes.
+    -This is in both male and female genders.
     
-* For our second analysis,create a pivot table 2 that compares the commute distance of an identifier with thier decision to purchase a bike.
+    2.The average income of the male identifiers is higher compared to the average income of the female identifiers.
+    
+    -In addittion,the average income of the male identifiers that did not purchase a bike is still higher 
+    than the average income of female identifiers that purchased bikes.
+    
+## *Second analysis
+* Create a pivot table 2 that compares the commute distance of an identifier with thier decision to purchase a bike.
 
 -Process: >insert pivot table>select dataset from working sheet>rows:Commute distance>columns:purchased bike>values:count of purchased bike.Sort commute distance in ascending order.
 
 -From our analysis,we note that:
    
-   1. The largest target market lies in the 0-1 miles commute distance identifiers.This is beacuse it contains the highest number of identifiers.
+   1. The largest target market in line with the commute distance attribute lies in the '0-1 miles commute distance' identifiers.This is because this category contains the highest number of identifiers.
     
    2. As the commute distance increases, the size of the target market decreases.
    
    3. As the commute distance increases,the amount of bike purchases decreases.
 
-* For our third analysis,create a pivot table 3 that compares  age brackets versus thier bike purchase.
+## *Third analysis
+* Create a pivot table 3 that compares  age brackets versus thier bike purchase.
 
 -Process: >insert pivot table>select dataset from working sheet>rows:Age Brackets>columns:Purchased bike>values:Count of purchased bike.
 
 -From our analysis,we note that :
 
-    1. The largest target market lies in the 'middle age bracket'(31-49 years).This is because it contains the highest number of identifiers.
+   1. The largest target market in line with the age bracket attribute is the 'middle age bracket'(31-49 years).
+   
+-This is because this age bracket contains the highest number of identifiers.
     
-    2. The 'middle age bracket'(31-49 years) has significantly higher higher bike purchases compared to the 'old'(54 an above years) and 'adolescent'( 30 and below years)           age brackets.
+   2. The 'middle age bracket'(31-49 years) has significantly higher bike purchases compared to the 'old'(54 and above years) and 'adolescent'( 30 and below years)           age brackets.
     
--After performing data analysis on the data set and creating pivot tables,we can now proceed to visualizing our findings.
+* After performing data analysis on the dataset and creating  3 pivot tables,we can now proceed to visualizing our findings.
     
 # **Dataset Visualization**
 * Create a new work sheet namely 'Dashboard'.We shall showcase our data visualization charts on the 'Dahboard' sheet.Remove grid lines from the worksheet and add a header (merge,centre and colour fill the top sheet cells) namely 'BIKE SALES DASHBOARD'.
@@ -107,19 +118,21 @@
 * After data analysis and visualization, we can now proceed to deliver reccommendation to the bike seller.
 
 # **Reccommendations To Bike Seller**
-* From insights obtained from analyzing our data set,we are set to give reccommendations that will guide the bike seller in conducting taregeted marketing which will in turn lead to increased bikes sales.
+* From insights obtained from analyzing our data set,we are set to give reccommendations that will guide the bike seller in conducting targeted marketing which will in turn lead to increased bikes sales.
 
-* Reccommendations are as follows:
+* Our reccommendations are as follows:
+
     1.Target identifiers with higher income levels when marketing the bikes.As from our insights,higher income earners purchase bikes more compared to thier counterparts.
     
-    2. When marketing to identifiers with the same average income level, prioritize the female gender in comparision to the male gender.This is because from our analysi,we observe that at the same avarage income level,female identifiers are more likely to make a bike purchase as oppossed to their male counterparts.
+    2. When marketing to identifiers with the same average income level, prioritize the female gender in comparision to the male gender.This is because from our analysis,we observe that at the same avarage income level,female identifiers are more likely to make a bike purchase as oppossed to their male counterparts.
     
     3.Prioritize identifiers in the 0-5 miles commute distance with top priority to those in the 0-1 miles commute distance during marketing.From our insights,we observe that identifiers in this range are more in number and have a tendancy to purchase bikes.
     
-    4.Middle age bracket identifiers should be accorded target market priority.It is evident that they carry the highet number of identifiers as well as the highest number of bike purchases in terms of age bracket.
+    4.Middle age bracket identifiers should also be accorded target market priority.It is evident that they carry the highest number of identifiers as well as the highest number of bike purchases in terms of age bracket.
  
- **Priority Target Demographic** : Middle aged,female clients that are in the high income level status.
-
+ 
+ 
+ 
 
     
     
