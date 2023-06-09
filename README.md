@@ -1,7 +1,7 @@
 ## Ms-Excel-Project.
 # **Introduction**
 
-* In this project, a dataset that contains information on bike purchase by different individuals with discrete attributes is presented.
+* In this project, a dataset that contains information on 'bike purchase by different individuals with discrete attributes' is presented.
 
 * Our aim is to clean,transform,analyze and visualize the dataset inorder to draw insights that will guide the bike seller in making informed marketing decisons hence improving his/her bike sales.
 
