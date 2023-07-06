@@ -6,11 +6,11 @@
 * Our aim is to clean,transform,analyze and visualize the dataset inorder to draw insights that will guide the bike seller in making informed marketing decisons hence improving his/her bike sales.
 
 # **Purpose of Project**
-1). Identify which demographic of our identifiers purchased bikes more compared to their counterparts.
+**1)**. Identify which demographic of our identifiers purchased bikes more compared to their counterparts.
 
  -This will grant the bike seller insight on which demographic to market more to in order to maximize bike sales.
 
-2). Identify which demographics are underexplored and have a potential to purchase bikes at a high rate.
+**2)**. Identify which demographics are underexplored and have a potential to purchase bikes at a high rate.
 
  -This will guide the bike seller in diverting marketing targets from demographics that are least interested in bike purchase to demographics that have a greater potential to purchase more bikes.
  
