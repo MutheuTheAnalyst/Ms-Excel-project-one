@@ -67,13 +67,13 @@
 
 -From my analysis,I note that:
 
-    1.Bikes were purchased by identifiers that have an average higher income compared to the non-purchasers.
+   1.Bikes were purchased by identifiers that have an average higher income compared to the non-purchasers.
     
-    -This is in both male and female genders.
+   -This is in both male and female genders.
     
-    2.The average income of the male identifiers is higher compared to the average income of the female identifiers.
+   2.The average income of the male identifiers is higher compared to the average income of the female identifiers.
     
-    -In addittion,the average income of the male identifiers that did not purchase a bike is still higher 
+   -In addittion,the average income of the male identifiers that did not purchase a bike is still higher 
     than the average income of female identifiers that purchased bikes.
     
 ## *Second analysis
