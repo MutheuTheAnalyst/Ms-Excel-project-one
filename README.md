@@ -21,7 +21,7 @@
 
 * The variables include:Marital status,Gender,Income,Children,Education,Occupation,Home owner,Cars,Commute,Region,Age,Purchased bike.
 
-* NB:Variables in this case, are the attributes of identifiers that may have influenced their decision of whether or not to purchase a bike.
+* NB:Variables, in this case, are the attributes of identifiers that may have influenced their decision of whether or not to purchase a bike.
 
 # **Dataset Cleaning**
 * The first step in data analysis is oftenly data cleaning.In our case,we proceed to data cleaning after data overview.
