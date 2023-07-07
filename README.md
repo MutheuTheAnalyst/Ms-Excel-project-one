@@ -1,11 +1,11 @@
-## Ms-Excel-Project.
-# **Introduction**
+# Ms-Excel-Project.
+## **Introduction**
 
 * In this project, a 'bike purchase' dataset is presented.
 
 * My **aim** is to **clean,transform,analyze and visualize the dataset** inorder to **draw insights** that will **guide the bike seller** in **making informed marketing decisons** hence improving his/her bike sales.
 
-# **Purpose of Project**
+## **Purpose of Project**
 **1)**. Identify which demographic of the identifiers purchased bikes more compared to their counterparts.
 
  - This will grant the bike seller insight on which demographic to market more to in order to maximize bike sales.
@@ -14,7 +14,7 @@
 
  - This will guide the bike seller in diverting marketing targets from demographics that are least interested in bike purchase to demographics that have a greater potential to purchase more bikes.
  
- # **Dataset Overview**
+ ## **Dataset Overview**
 * The **dataset is obtained** from the open source plattform **'Kaggle'** and is accessible to the general public for use.
 
 * At a glance,I oIbserved that the **dataset contains 106 identifiers and 12 variables**.
@@ -23,7 +23,7 @@
 
 * NB:Variables, in this case, are the attributes of identifiers that may have influenced their decision of whether or not to purchase a bike.
 
-# **Dataset Cleaning**
+## **Dataset Cleaning**
 * The first step in data analysis is often data cleaning.In this case,I proceeded to clean the dataset after data overview.
 
 * Copy and paste the dataset into a new excel sheet,namely,'working sheet'.The **process of data cleaning and data transformation takes place on the working sheet**.This allows for retention of the raw data in its original form at the original excel sheet. 
@@ -34,7 +34,7 @@
 
 * In this case,**no column contained any inconsistecy or inaccurracy**.Thus I procceded to transforming our dataset.
 
-# **Dataset Transformation**
+## **Dataset Transformation**
 * **Check each column for any data type,data value or data format transformation required**.
 
 * In **'Marital status' column**,replace **'M'** data values with **'Married'** and also replace **'S'** data values with **'Single'**.This is because other users may not be familiar with the given abbreviations.It is best to use univerasally known words. **Proccess**: select column and use the find and replace function available at the home tab. 
@@ -51,7 +51,7 @@
 
 * Since the other remaining columns did not require any transformation,I proceeded to analyze the clean and transformed dataset.
 
-# **Dataset Analysis**
+## **Dataset Analysis**
 * Create a new work sheet namely,'pivot tables'.I perform all my analysis on this work sheet.Copy all data from the 'working sheet' and paste it onto this new sheet.
 
 * In my analysis,I answer to the following:
@@ -59,7 +59,7 @@
 2. Does the commute distance of an identifier make a difference in their decision of whether or not to make a bike purchase?
 3. Which age group is more interested in bike purchase?
 
-## First analysis
+### *First analysis*
 
 * **Create a pivot table 1** that compares the average income of males versus the average income of females that did or did not purchase a bike.
 
@@ -74,7 +74,7 @@
     **3.** In addittion,the average income of the male identifiers that did not purchase a bike is still higher 
       than the average income of female identifiers that purchased bikes.
     
-## Second analysis
+### *Second analysis*
 * **Create a pivot table 2** that compares the commute distance of an identifier with thier decision to purchase a bike.
 
 - **Process**: >insert pivot table>select dataset from working sheet>rows:Commute distance>columns:purchased bike>values:count of purchased bike.Sort commute distance in ascending order.
@@ -88,21 +88,21 @@
    
      **3.** As the commute distance increases,the amount of bike purchases decreases.
 
-## Third analysis
+### *Third analysis*
 * **Create a pivot table 3** that compares  age brackets versus thier bike purchase.
 
 - **Process**: >insert pivot table>select dataset from working sheet>rows:Age Brackets>columns:Purchased bike>values:Count of purchased bike.
 
-- From my analysis,I note that :
+- From my analysis,I noted that :
 
      **1.** The largest target market in line with the age bracket attribute is the 'middle age bracket'(31-49 years).This is because this age bracket contains the highest 
            number of identifiers.
     
      **2.** The 'middle age bracket'(31-49 years) has significantly higher bike purchases compared to the 'old'(54 and above years) and 'adolescent'( 30 and below years)               age brackets.
     
-* After performing data analysis on the dataset and creating  3 pivot tables,we can now proceed to visualizing our findings.
+* After performing data analysis on the dataset and creating  3 pivot tables,I proceeded to visualizing my findings.
     
-# **Dataset Visualization**
+## **Dataset Visualization**
 * **Create a new work sheet namely 'Dashboard'**.We shall **showcase our data visualization charts on the 'Dashboard' sheet**.Remove grid lines from the worksheet and add a header (merge,centre and colour fill the top sheet cells) namely 'BIKE SALES DASHBOARD'.
 
 * From **each pivot table created, create corresponding pivot chart**.
@@ -115,7 +115,7 @@
 
 * After data analysis and visualization, we can now proceed to deliver reccommendations to the bike seller.
 
-# **Reccommendations To Bike Seller**
+## **Reccommendations To Bike Seller**
 * From insights obtained from analyzing the data set,I set to give reccommendations that will guide the bike seller in conducting targeted marketing which will in turn lead to increased bikes sales.
 
 * My reccommendations are as follows:
